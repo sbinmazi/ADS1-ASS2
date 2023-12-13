@@ -19,7 +19,7 @@ print(data.describe())
 import matplotlib.pyplot as plt
 
 data['dt'] = pd.to_datetime(data['dt'])
-
+#graph
 # Plot time series
 plt.figure(figsize=(10, 6))
 plt.plot(data['dt'], data['AverageTemperature'])
